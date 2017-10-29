@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Nautilus (Root)
+Comment=Access and organize files with root priviliges
+Icon=/usr/share/icons/Numix-Circle/file-manager-blue.svg
+Exec=gksu nautilus /home/$USER
+NoDisplay=false
+Categories=Core;FileManager;GNOME;GTK;System;System-Tools;Utilities;
+Keywords=root;administrator;folder;manager;explore;disk;filesystem;file;files;nautilus;
+MimeType=inode/directory;application/x-gnome-saved-search;
+StartupNotify=true
+Terminal=false
